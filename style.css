@@ -1,0 +1,660 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+body{
+    height: 100vh;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Rubik", sans-serif;
+}
+/*<<<<<<<<<<<< Navbar >>>>>>>>>>>>>*/
+
+nav ul{
+   position: relative;
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    left: 45%;
+    top: -17px;
+    
+}
+nav ul a{
+    text-decoration: none;
+    margin-right: 40px;
+    color:hsl(229, 8%, 60%);
+
+}
+nav ul a:hover{
+    color: hsl(0, 94%, 66%);
+}
+li{
+    list-style: none;
+
+}
+.img-logo{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    top: -17px;
+
+}
+
+.nav{
+   display: flex;
+   position: relative;
+ 
+}
+.btn-zero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 46%;
+    width: 110px;
+    height: 40px;
+    top: 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: hsl(0, 94%, 66%);
+}
+
+/*<<<<<<<<<< Button >>>>>>>>>>*/
+
+.btn-zero:hover{
+    background-color: white;
+    color:hsl(0, 94%, 66%);
+    border: 1px solid hsl(0, 94%, 66%);
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.3);
+
+}
+.btn-1{
+   background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+}
+.btn-1:hover{
+    background-color: white;
+    color:hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.3);
+
+}
+.btn-main{
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    width: 28%;
+    height: 45px;
+    border-radius: 3px;
+
+}
+.btn-2{
+    margin-left: 10px;
+    color:hsl(229, 31%, 21%);
+    border: none;
+}
+.btn-2:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.3);
+
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-3{
+    margin-left: 10px;
+    width: 105px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.btn-3:hover{
+    background-color: white;
+    color:hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.3);
+
+}
+.btn-4{
+    position: absolute;
+    top:82%;
+    left: 10px;
+    width: 90%;
+    height: 35px;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+  
+}
+.btn-4:hover{
+    background-color: white;
+    color:hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.3);
+
+}
+.btn-5{
+    position: absolute;
+    left: 25%;
+    width: 110px;
+    height: 40px;
+    top: 22em;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+
+}
+.btn-5:hover{
+    background-color: white;
+    color:hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.3);
+
+}
+.btn-6{
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    left: 56%;
+    top: 12em;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+
+}
+.btn-6:hover{
+    background-color: white;
+    color:hsl(0, 94%, 66%);
+    border: 1px solid hsl(0, 94%, 66%);
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.3);
+
+}
+
+/*<<<<<<<Main Section>>>>>>>>>*/
+
+.main-section{
+    position: relative;
+    display: flex;
+    height: 520px;
+}
+
+.blue-background{
+    background-color: hsl(231, 69%, 60%);
+    height: 300px;
+    width: 90%;
+    margin-top: -42%;
+    margin-left: 30%;
+    border-bottom-left-radius: 45%;
+}
+.blue-background-2{
+    background-color: hsl(231, 69%, 60%);
+    height: 300px;
+    width: 48em;
+    margin-top: -29%;
+    margin-left: -39%;
+    border-bottom-right-radius: 45%;
+}
+.left{
+    margin-left: -16px;
+}
+.main-right{
+   margin-top: 80px;
+}
+.main-right h1{
+    padding: 5px;
+    font-size: 40px;
+    color: hsl(229, 31%, 21%);
+}
+.main-right p{
+    width: 95%;
+    padding: 5px;
+    font-size: 18px;
+    color:hsl(229, 8%, 60%);
+
+}
+/*<<<<<<<<<< Features >>>>>>>>>>>>>*/
+
+.features{
+    border: 1px solid white;
+    position: relative;
+    top: 20px;
+    height: 250px;
+
+}
+.features h1{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;padding: 5px;
+    color: hsl(229, 31%, 21%);
+
+}
+.features p{
+    width: 42%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    left: 28%;
+    text-align: center;
+    padding: 5px;
+    color:hsl(229, 8%, 60%);
+    
+}
+.li-flex{
+    width: 55%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 120px;
+    margin-left: 22%;
+    font-size: 16px;
+    color:hsl(229, 31%, 21%);
+}
+#li-1:hover{
+    color:hsl(0, 94%, 66%); 
+}
+#li-2:hover{
+    color:hsl(0, 94%, 66%); 
+}
+#li-3:hover{
+    color:hsl(0, 94%, 66%); 
+}
+#red-line{
+    display: flex;
+    border: 1px solid hsl(0, 94%, 66%);
+    width: 25%;
+    margin-top: 2%;
+}
+/*<<<<<<<<<<<<Extention>>>>>>>>>>>>>>>>>>>>*/
+
+.extenstion{
+    position: relative;
+    height: 30em;
+    margin-top: 190px;
+    
+}
+.extenstion h1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    color: hsl(229, 31%, 21%);
+    font-size: 28px;
+
+
+}
+.extenstion p{
+    display: flex;
+    justify-content: center;
+    width: 42%;
+    position: absolute;
+    left: 30%;
+    top: 40px;
+    color:hsl(229, 8%, 60%);
+    padding: 10px;
+
+}
+.card{
+    position: absolute;
+    top:20%;
+   
+}
+.card-one{
+    position: absolute;
+    height: 255px;
+    width: 195px;
+    left: 17em;
+    top:10px;
+    background-image: url(./images/logo-chrome.svg);
+    background-repeat: no-repeat;
+    background-position:50px 20px;
+    background-size: 40%;
+    border: none;
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.card h1{
+    position: absolute;
+    top: 45%;
+    font-size: 20px;
+    padding: 10px;
+    color:hsl(229, 31%, 21%);
+}
+.card p{
+    position: absolute;
+    top:60%;
+    font-size:13px;
+    width: 80%;
+    left: 18px;
+    padding: 5px;
+    color:hsl(229, 8%, 60%);
+}
+
+.card-two{
+    position: absolute;
+    height: 255px;
+    width: 195px;
+    border: 1px solid black;
+    left: 31em;
+    top:2em;
+    background-image: url(./images/logo-firefox.svg);
+    background-repeat: no-repeat;
+    background-position:50px 20px;
+    background-size: 40%;
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.5);
+}
+.card-two img{
+    position: absolute;
+    top:75%;
+    width: 100%;
+}
+.card-one img{
+    position: absolute;
+    top:75%;
+    width: 100%;
+}
+.card-three{
+    position: absolute;
+    height: 255px;
+    width: 195px;
+    border: 1px solid black;
+    left: 45em;
+    top:4em;
+    background-image: url(./images/logo-opera.svg);
+    background-repeat: no-repeat;
+    background-position:50px 20px;
+    background-size: 40%;
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.5);
+}
+.card-three img{
+    position: absolute;
+    top:75%;
+    width: 100%;
+}
+
+/*Extention*/
+
+.questions{
+   position: relative;
+   height: 45em;
+   top:30px;
+ 
+}
+.questions-box{
+    margin-top: -50px;
+}
+.questions-data{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+
+
+}
+.questions-data h1{
+    position: absolute;
+    left: 13em;
+    padding: 10px;
+    color: hsl(229, 31%, 21%);
+    font-size: 28px;
+}
+.questions-data p{
+    position: absolute;
+    left: 22em;
+    top: 4em;
+    width: 40%;
+    font-size: 16px;
+    color:hsl(229, 8%, 60%);
+}
+.questions-data-2{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    color:hsl(229, 8%, 60%); 
+   
+}
+.questions-data-2 hr{
+    width: 125%;
+    position: absolute;
+    left: -13em;
+}
+.questions-data-2 h5{
+    display: flex;
+    margin-left: -33%;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    color:hsl(229, 31%, 21%);
+    align-items: center;  
+}
+.questions-data-2 h5:hover{
+    color:hsl(0, 94%, 66%);
+}
+.flex-arrow{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.questions-data-2 .flex-arrow img{
+    margin-left: 130px;
+}
+
+/*<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>*/
+
+footer{
+    position: relative;
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-color: hsl(231, 69%, 60%);
+}
+.footer-data{
+   width: 100%;
+    position: absolute;
+}
+.footer-data p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    letter-spacing: 5px;
+    color: white;
+}
+.footer-data h1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2em;
+    width: 45%;
+    left: 28%;
+    color: white;
+    text-align: center;
+}
+
+.sub-footer{
+    display: flex;
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    margin-top: 140px;
+    background-color: hsl(229, 31%, 21%);
+    height: 30%;
+    align-items: center;
+}
+.sub-footer ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-footer a{
+    color: white;
+    text-decoration: none;
+}
+.sub-footer a:hover{
+    color:hsl(0, 94%, 66%);
+}
+
+.sub-footer img{
+    fill: white;
+    margin-left: 20%;
+}
+.social{
+    display: flex;
+    position: absolute;
+    width: 15%;
+    left: 55em;
+    
+}
+.facebook-icon:hover,.twitter-icon:hover{
+ background-color: hsl(0, 94%, 66%) ;
+}
+.facebook-icon, .twitter-icon {
+    width: 16px; 
+    height: 16px; 
+    gap: 0;
+}
+input{
+    position: absolute;
+    left:35% ;
+    top: 12em;
+
+    width: 20%;
+    height: 35px;
+}
+.line-red{
+    display: flex;
+    width: 500px;
+    margin-top: 30px;
+    
+}
+#red-hr{
+    width: 25%;
+    color: red;
+    background-color: red;
+    height: 3px;
+    margin-left: 16%;
+  
+}
+hr{
+    margin-left: 16%;
+    width: 66%;
+    
+}
+.Book-mark-one{
+    position: relative;
+    top: 40px;
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+.Book-data{
+    position: absolute;
+    left: 60%;
+    width: 35%;
+    top:20%;
+}
+.Book-data h1{
+    padding: 10px;
+    color: hsl(229, 31%, 21%);
+}
+.Book-data p{
+    color:hsl(229, 8%, 60%);
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 5px;
+  
+
+}
+.img-2{
+    position: absolute;
+    left: 47px;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    nav ul {
+        left: auto;
+        right: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        top: 0;
+    }
+
+    nav ul a {
+        margin-right: 20px;
+    }
+
+    .btn-zero {
+        left: 40%;
+        top: 20px;
+    }
+
+    .btn-5 {
+        left: 10%;
+        top: 22em;
+    }
+
+    .btn-6 {
+        left: 30%;
+        top: 12em;
+    }
+
+    .extenstion {
+        margin-top: 10px;
+    }
+
+    .card-one,
+    .card-two,
+    .card-three {
+        left: 1em;
+
+    }
+
+    .questions {
+        top: 10px;
+    }
+
+    .footer-data,
+    .sub-footer,
+    .social,
+    .Book-mark-one {
+        left: 0;
+        width: 100%;
+    }
+}
